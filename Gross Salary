@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float s,g;
+    printf("Enter Salary\n");
+    scanf("%f",&s);
+    g=s*160/100;
+printf("Gross Salary=%f",g);
+    return 0;
+}
