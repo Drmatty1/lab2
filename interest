@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    float a,r,t,i;
+    printf("Enter Amount,Rate of Interest, Time in years\n");
+    scanf("%f%f%f",&a,&r,&t);
+    i=a*r*t/100;
+printf("Simple Interest=%f",i);
+    return 0;
+}
